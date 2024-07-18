@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo 'running phpunit...'
+
+# cd $DDEV_DOCROOT
+
+echo $(pwd)
+
+vendor/bin/phpunit $*
